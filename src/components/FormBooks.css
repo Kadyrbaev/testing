@@ -1,0 +1,28 @@
+.wrap-form{
+    border: 1px solid red;
+    width: 530px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(207, 211, 214);
+    z-index: 2;
+    top: 190px;
+    left: 24%;
+}
+.wrap-form input{
+    width: 500px;
+    padding: 14px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0.4px solid;
+    outline: none;
+}
+input::placeholder{
+    font-size: 16px;
+}
+.wrap-form button{
+    width: 160px;
+    padding: 10px;
+    margin-top: 30px;
+}

@@ -1,0 +1,30 @@
+.wrap{
+    margin: auto;
+    display: flex;
+    border: 1px solid;
+    width: 600px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+.books{
+    font-size: 60px;
+    box-shadow: 0px 0px 10px 3px;
+    width: 350px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+}
+.text-img{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-img img{
+    width: 240px;
+    height: 180px;
+}
