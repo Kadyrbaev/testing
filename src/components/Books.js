@@ -50,6 +50,8 @@ const Books=()=>{
 
     return(
         <div>
+            <h1>NEW BRANCH</h1>
+            <h1>BOOK_COMP</h1>
             {showModal === true ? <FormBooks onGetBookInfo={getBookInfo}/> : ""}
             {showModal === true ? <Modal/> : ""}
             <h2 onClick={addBookHandler}>ADD BOOK</h2>
